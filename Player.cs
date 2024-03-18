@@ -30,12 +30,18 @@ public class Player : KinematicBody
 
         if (Input.IsActionPressed("move_up"))
         {
-            direction.z += 1f;
+            direction.z -= 1f;
         }
 
         if (Input.IsActionPressed("move_back"))
         {
-            direction.z -= 1f;
+            direction.z += 1f;
+        }
+
+        if (direction != Vector3.Zero)
+        {
+            direction = direction.Normalized();
+            GetNode<Spatial>("Pivot").LookAt(Translation + direction, Vector3.Up);
         }
     }
 }
