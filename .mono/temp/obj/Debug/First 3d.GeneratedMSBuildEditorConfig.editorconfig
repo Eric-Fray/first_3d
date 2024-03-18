@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = First3d
+build_property.ProjectDir = /Users/ericf/code/games/godot/first_3d/first_3d/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
