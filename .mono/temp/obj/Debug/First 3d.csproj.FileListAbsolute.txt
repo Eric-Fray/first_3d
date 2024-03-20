@@ -1,0 +1,8 @@
+/Users/ericf/code/games/godot/first_3d/first_3d/.mono/temp/bin/Debug/First 3d.dll
+/Users/ericf/code/games/godot/first_3d/first_3d/.mono/temp/bin/Debug/First 3d.pdb
+/Users/ericf/code/games/godot/first_3d/first_3d/.mono/temp/obj/Debug/First 3d.csproj.AssemblyReference.cache
+/Users/ericf/code/games/godot/first_3d/first_3d/.mono/temp/obj/Debug/First 3d.AssemblyInfoInputs.cache
+/Users/ericf/code/games/godot/first_3d/first_3d/.mono/temp/obj/Debug/First 3d.AssemblyInfo.cs
+/Users/ericf/code/games/godot/first_3d/first_3d/.mono/temp/obj/Debug/First 3d.csproj.CoreCompileInputs.cache
+/Users/ericf/code/games/godot/first_3d/first_3d/.mono/temp/obj/Debug/First 3d.dll
+/Users/ericf/code/games/godot/first_3d/first_3d/.mono/temp/obj/Debug/First 3d.pdb

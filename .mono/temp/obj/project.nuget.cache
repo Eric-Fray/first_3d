@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8n25KV9AmCVCq+vGnFFf2HAvnSAmNqQtWKwKve9jb3erjzWwI2k1s5i/fdv5EWa+yLbHS8SBXi2XZYBds0ZVdg==",
+  "dgSpecHash": "8L7hrJrByph9NgTrtuPkrSjLDdEOSPXjZ2iBxeQRQa+p5GJ3wfEU5BiVlZ1y1273QcpTEJS2tqE03Z584Lfmig==",
   "success": true,
   "projectFilePath": "/Users/ericf/code/games/godot/first_3d/first_3d/First 3d.csproj",
-  "expectedPackageFiles": [
-    "/Users/ericf/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "/Users/ericf/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

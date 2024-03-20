@@ -19,7 +19,7 @@ public class Player : KinematicBody
         var direction = Vector3.Zero;
         
         // Check for directional input and update
-        if (Input.IsActionPressed("move_right"));
+        if (Input.IsActionPressed("move_right"))
         {
             direction.x += 1f;
         }
@@ -43,5 +43,13 @@ public class Player : KinematicBody
             direction = direction.Normalized();
             GetNode<Spatial>("Pivot").LookAt(Translation + direction, Vector3.Up);
         }
+        
+        // Ground Velocity
+        _velocity.x = direction.x * Speed;
+        _velocity.z = direction.z * Speed;
+        // Vertical Velocity
+        _velocity.y -= direction.y * delta;
+        // Moving the character
+        _velocity = MoveAndSlide(_velocity, Vector3.Up);
     }
 }
