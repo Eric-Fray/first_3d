@@ -28,7 +28,7 @@ public class Player : KinematicBody
             direction.x -= 1f;
         }
 
-        if (Input.IsActionPressed("move_up"))
+        if (Input.IsActionPressed("move_forward"))
         {
             direction.z -= 1f;
         }
